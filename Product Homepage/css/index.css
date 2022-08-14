@@ -1,0 +1,148 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 10vh;
+}
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 170px;
+  font-size: 30px;
+}
+.logo {
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.nav-item {
+  margin-left: 90px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-weight: 400;
+}
+.active-item {
+  color: #ff6666;
+}
+.action {
+  width: 400px;
+  position: relative;
+  top: 20px;
+}
+
+.intro-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  height: 80vh;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  min-height: 100%;
+}
+.left-section h3 {
+  font-size: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.left-section h1 {
+  font-size: 70px;
+  margin: 20px;
+}
+.sub-headlines {
+  margin: -50px 150px;
+  padding-bottom: 20px;
+}
+.sub-headline {
+  font-size: 30px;
+}
+.text {
+  margin-top: -10px;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.action-btns {
+  margin-left: 120px;
+}
+.action-btn {
+  padding: 20px 50px;
+  margin-right: 20px;
+  background-color: #ff6666;
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 20px;
+}
+
+.right-section {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  min-height: 100%;
+  position: relative;
+}
+.headphone-div {
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.headphone-img {
+  width: 500px;
+  position: relative;
+  bottom: 290px;
+  left: 90px;
+  right: 100px;
+  z-index: -1;
+}
+.discount {
+  width: 200px;
+  position: relative;
+  top: 280px;
+  left: 70px;
+}
+.discount-content {
+  position: relative;
+  top: 110px;
+  left: 130px;
+  color: white;
+  font-size: 20px;
+}
+.dots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 20px;
+}
+.dot {
+  border: 20px solid transparent;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+.yellow-dot {
+  background-color: #af9d5a;
+}
+.tomato-dot {
+  background-color: #e6425e;
+}
+.black-dot {
+  background-color: #0d0d0d;
+}
+.cart-btn {
+  text-align: center;
+  padding: 20px 0px;
+
+  background-color: #ff6666;
+  color: white;
+  font-size: 25px;
+  border: none;
+  border-radius: 30px;
+}
